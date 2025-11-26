@@ -1,7 +1,6 @@
 # TripIt
 
 [![Flutter](https://img.shields.io/badge/Flutter-2.20-blue?logo=flutter&logoColor=white)](https://flutter.dev/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 **TripIt** is a Flutter-based travel planning and booking app designed to simplify your trips. It allows users to explore destinations, plan itineraries, and manage travel details efficiently.  
 
