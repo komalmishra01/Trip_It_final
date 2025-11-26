@@ -1,0 +1,86 @@
+name: trip_it
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.2.1
+  flutter_typeahead: ^5.2.0
+  string_similarity: ^2.0.0
+  shared_preferences: ^2.2.2
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  url_launcher: ^6.3.0
+
+  # ⭐ ADD THESE (Map Dependencies)
+  flutter_map: ^7.0.0
+  latlong2: ^0.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/bali.jpg
+    - assets/images/paris.jpg
+    - assets/images/japan.jpg
+    - assets/images/london.jpg
+    - assets/images/newyork.jpg
+    - assets/images/splash_logo.png
+    - assets/images/kerala.png
+    - assets/images/kashi.png
+    - assets/images/tokyo.jpg
+    - assets/images/hawa.jpg 
+    - assets/images/santorini.png
+    - assets/images/giza.png
+    - assets/images/slide1.png
+    - assets/images/slide3.jpg
+    - assets/images/london2.png
+    - assets/images/rj2.png
+    - assets/images/rjbg.png
+    - assets/images/rj3.png
+    - assets/images/rj1.png
+    - assets/images/london2.png
+    - assets/images/tokyo_gal_1.jpg
+    - assets/images/tokyo_gal_2.jpg
+    - assets/images/tokyo_gal_3.jpg
+    - assets/images/tokyo_gal_4.jpg
+    
+    - assets/images/rome.jpg
+    - assets/images/rome_gal_1.jpg
+    - assets/images/rome_gal_2.jpg
+    - assets/images/rome_gal_3.jpg
+    - assets/images/rome_gal_4.jpg
+
+    - assets/images/giza_gal_1.jpg
+    - assets/images/giza_gal_2.jpg
+    - assets/images/giza_gal_3.jpg
+    - assets/images/giza_gal_4.jpg
+
+    - assets/images/bali_gal_1.jpg
+    - assets/images/bali_gal_2.jpg
+    - assets/images/bali_gal_3.jpg
+    - assets/images/bali_gal_4.jpg
+    - assets/images/santorini_gal_1.jpg
+    - assets/images/santorini_gal_2.jpg
+    - assets/images/santorini_gal_3.jpg
+    - assets/images/santorini_gal_4.jpg
+    - assets/images/dest_vietnam.jpg
+    - assets/images/dest_vietnam_gal_1.jpg
+    - assets/images/dest_vietnam_gal_2.jpg
+    - assets/images/dest_switzerland.jpg
+    - assets/images/dest_switzerland_gal_1.jpg
+    - assets/images/dest_switzerland_gal_2.jpg
